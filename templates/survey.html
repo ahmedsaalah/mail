@@ -1,0 +1,55 @@
+{% extends "base.html" %} 
+{% block title %}Survey{% endblock %}
+{% block content %}
+
+<body class="hold-transition register-page">
+<div class="register-box">
+  <div class="register-logo">
+
+  </div>
+
+          <div class="box box-primary">
+            <div class="box-header with-border">
+              <h3 class="box-title">choose your place</h3>
+            </div>
+            <!-- /.box-header -->
+            <!-- form start -->
+   
+              <!-- /.box-header -->
+              <!-- form start -->
+              <form role="form" method ="post">
+                <div class="box-body">
+                  <div class="form-group">
+                    <label for="exampleInputEmail1">FullName</label>
+                    <input type="name" name="name"class="form-control" id="exampleInputEmail1" placeholder="FullName">
+                  </div>
+                  
+                  <div class="radio">
+                    <label>
+                      <input type="radio" name="rad" id="optionsRadios1" value="YES" checked>
+                      Yes
+                    </label>
+                  </div>
+                  <div class="radio">
+                    <label>
+                      <input type="radio" name="rad" id="optionsRadios2" value="NO">
+                      No
+                    </label>
+                  </div>
+
+                </div>
+                <!-- /.box-body -->
+  
+                <div class="box-footer">
+                  <button type="submit" class="btn btn-primary">Submit</button>
+                </div>
+              </form>
+
+  <!-- /.form-box -->
+</div>
+
+
+
+
+    
+{% endblock %}
